@@ -7,15 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AbcComponent implements OnInit {
 
+
+ x=89;
+
+
+
+
+
   constructor() { }
+
 
   ngOnInit() {
   }
-
-  flag="false";
-   chg()
-   {
-     this.flag=!this.flag
-   }
 
 }

@@ -1,8 +1,16 @@
 
 <div id="m1">
     <h1>this is main area </h1>
-    <button (click)="chg()">  press me </button>
+    <input type="text" [(ngModel)]="x">
 
-    <h1 *ngIf="flag"> some text</h1>
+<div *ngIf="x">
+    <h1 *ngIf="x%2==0">even numb</h1>
+    <h1 *ngIf="x%2!=0">odd number</h1>
+
+    </div>
+
+
+
+
 
 </div> 
